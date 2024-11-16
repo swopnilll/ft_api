@@ -3,16 +3,16 @@
 ### User
 ### Get user
 GET http://localhost:8000/api/v1/users
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYS5jb20iLCJpYXQiOjE3MjY5ODIwMTUsImV4cCI6MTcyNjk4MjA3NX0.y8suUGvKWse6cnhleUSORYRthAIF6brBTN7torAwt2I
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN3b3BAZ21haWwuY29tIiwiaWF0IjoxNzMxNzQzMTI0LCJleHAiOjE3MzE4Mjk1MjR9.qZWsL3JTimgULWZSxJ_YTGiQ8VTra7n3jiuaSLKZBbM
 
 ### Post new user
 POST  http://localhost:8000/api/v1/users
 Content-Type: application/json
 
 {
-    "name": "Prem",
-    "email": "a@a.com",
-     "password": "123" 
+    "name": "Swopnil",
+    "email": "swop@gmail.com",
+     "password": "1234" 
 }
 
 
@@ -21,8 +21,8 @@ POST  http://localhost:8000/api/v1/users/login
 Content-Type: application/json
 
 {
-    "email": "a@a.com",
-     "password": "11111" 
+    "email": "swop@gmail.com",
+     "password": "1234" 
 }
  
 
